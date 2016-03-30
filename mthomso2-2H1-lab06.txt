@@ -1,0 +1,26 @@
+Molly Thomson
+mthomso2
+G00892755
+Lecture: H01
+Lab: 2H1
+Group Members: Greg Aronson, Paul Hughes
+
+Problem 1:
+Step 1:
+1.) We all came up with the same basic logic of code. We looped through the tokens and found if one of the tokens began with a '<' and ended with a '>'. If they did, we replaced it with an array of place holders. Greg and I used the replace() method to replalce the characters. Paul's code was different because he didn't use the replace() method. I did not reuse code to find the filename, either. Greg and Paul did, which made their code more efficient. 
+
+2.) Greg had the shortest code. He made it efficient by reusing code, and by compacting everything. He reused the code to make an instance of the readFile(). Even though it was the shortest, it was still readable.
+
+3.) Greg also had the most readable code. It was readable because he reused code appropriately, and the comments made everything understandable. It did not take Greg more lines to make the code readable. 
+
+Step 2: 
+To improve my replace() method, I would reuse the readInTemplate() method to get the file. It was unneccesary for me to write out the Scanner class and find the file with all of that code.
+
+Problem 2:
+Step 1:
+1.) In the IOGame constructor, Greg and I used the readInTemplate() method to read in the file that was being used. This made the code shorter and easier to read. Greg and I also used the replace() method in the replaceAndWrite() method to read in the file and replace the place holders with the right nouns. 
+
+2.) The code reuse definitely made the code more readable (and shorter). Greg's code is very short for his reuse of code. As long as you know what the reused method is referring to, you should use that code. 
+
+Step 2:
+If I could improve my code, I would definitely try to reuse code more. I should have used the readInTemplate method more thatn I did; it would have made my code shorter and easier to read. There is a lot of repetition in my code which makes it confusing to read. 
